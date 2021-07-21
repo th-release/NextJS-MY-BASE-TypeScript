@@ -1,0 +1,22 @@
+body {
+    background-color: #171a21;
+}
+/* -----------------Button----------------- */
+.Button1 {
+    width: 275px;
+    height: 40px;
+}
+
+.Button2 {
+    width: 200px;
+    height: 40px;
+}
+/* -----------------Button----------------- */
+
+.TextInput1 {
+    margin-bottom: 15px;
+    width: 375px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 45px;
+}
