@@ -1,7 +1,7 @@
 # th-release Next.JS -TypeScript
 타입스크립트로 NextJS 사용하기
 
-> JavaScript 버전을 원하시는 분은(https://github.com/th-release/NextJS-MY-BASE-Node)로 이동해 주세요
+> JavaScript 버전을 원하시는 분은(https://github.com/th-release/NextJS-MY-BASE-Node) 으로 이동해 주세요
 
 ## 준비물
 ```* node v12.x 또는 그 이상
