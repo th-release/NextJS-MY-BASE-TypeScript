@@ -15,21 +15,21 @@ export default function Home() {
     const [password, setpassword] = useState("")
     const QueryhandleParam = (setValue: any) => (e: any) => setValue(e.target.value)
     const login = preventDefault(async () => {
-        const res = await fetch('/api/login', {
+        const res = await fetch('/api/Login', {
         method: 'POST',
         body: JSON.stringify({
-            username: username,
-            password: password,
-        }),
+          username: username,
+          password: password,
+      }),
       }).then((res) => res.json())
         document.cookie = 'Token' + '=' + ''
-        if (!res.success
-            ) return alert('실패')
+        console.log(res)
+        if (!res.success) return alert('실패')
         if(res.success){
             document.cookie = 'Token=' + res.token
             router.push("/user")
         }
-    })  
+    })
     return (
     <body style={{height: '100%', textAlign: 'center', marginTop: '80px'}}>
         <Head/>

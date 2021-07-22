@@ -1,26 +1,34 @@
-# th-release Next.JS -TypeScript
-타입스크립트로 NextJS 사용하기
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-> JavaScript 버전을 원하시는 분은(https://github.com/th-release/NextJS-MY-BASE-Node) 으로 이동해 주세요
+## Getting Started
 
-## 준비물
-```* node v12.x 또는 그 이상
-* yarn v1.x
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-## 사용법
-### 1. 템플릿 사용
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-저장소를 만들고 NextJS-MY-BASE-TypeScript를 다운로드 한 후에 저장소 넣습니다.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-### 2.필수 구성요소 다운로드
-```yarn```\
-로 구성요소를 다운로드 합니다
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
 
-### 4. 실행
-```yarn build & yarn start -p <포트>```\
-으로 실행 시킬 수 있습니다.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### 5. 완료
+## Learn More
 
-이제 재밌게 웹 쓰시면 됩니다
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

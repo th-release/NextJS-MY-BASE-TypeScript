@@ -23,6 +23,7 @@ export default function Home() {
           CheckPassword,
       }),
       }).then((res) => res.json())
+      if (!res.success) return alert(res.msg)
     })
     return (
       <body style={{height: '100%', textAlign: 'center', marginTop: '80px'}}>

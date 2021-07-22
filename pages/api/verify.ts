@@ -3,11 +3,11 @@ import jwt from 'jsonwebtoken'
 import { NextDatas, SECRETHASH, TokenData } from '../variable/variable'
 
 const DBConfig = {
-    host:'127.0.0.1', // 아이피 (IP)
+    host:'th-release.kro.kr', // 아이피 (IP)
     port: 3306, // 포트 3306 (포트 3306 열어줘야함)
-    user: 'localhost', // user의 이름 (username)
-    database : 'database' // database 이름 (Data Base Name)
-}
+    user: 'cth', // user의 이름 (username)
+    database : 'HackingTest' // database 이름 (Data Base Name)
+  }
 
 const db = knex({
     client: 'mysql',
